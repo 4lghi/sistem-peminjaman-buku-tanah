@@ -599,7 +599,7 @@ function DaftarPeminjaman() {
           />
           <div className="flex items-center gap-2">
             {/* Export, Tambah & print */}
-            <button
+            {/* <button
               onClick={() => {
                 setDataUntukCetak(selectedRowsValid);
                 setTimeout(() => {
@@ -618,7 +618,7 @@ function DaftarPeminjaman() {
             >
               <Download className="mr-2 h-4 w-4" />
               Export
-            </button>
+            </button> */}
             <button
               onClick={openModal}
               className="flex items-center w-24 px-4 py-2 bg-sky-900 text-white rounded-lg hover:bg-sky-700 font-semibold cursor-pointer"
